@@ -26,6 +26,7 @@ git pull
 Create a init_setup.sh ( shell script works only for linux terminal. since git bash is linux terminal. i have written in shell script)
 Write codes to create a env and activate the env
 run the shell script
+
 ```
 bash init_setup.sh
 ```
@@ -49,18 +50,21 @@ create a template.py file and import os and path and create a list of files name
 
 Run template.py to get all the files mentioned in the list
 
-'''
+```
 python template.py
-'''
+```
 
 To install DiamondPricePrediction , write setup codes in setup.py and run
-'''
+
+```
 python setup.py install
-'''
+```
+
 Other ways to install DiamondPricePrediction is to add "-e ." in the requirements.txt and run
-'''
+
+```
 pip install -r requirements.txt
-'''
+```
 
 Day-2
 Research.ipynb - proceeding with data ingestion and basic analysis of features of the data
@@ -86,10 +90,9 @@ Update files data_ingestion.py; data_transformation.py; model_trainer.py with de
 Write code to create a  Log file in Logger.py
 Write code to creat a custom exception in Exception.py
 
-'''
+```
 from src.DimondPricePrediction.logger import logging
-'''
-or You can write  if 
+```
 
 
 
